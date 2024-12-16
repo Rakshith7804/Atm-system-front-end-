@@ -1,0 +1,98 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Fingerprint based ATM System
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+ </head>
+ <body class="bg-gray-400 flex justify-center items-center min-h-screen">
+  <div class="bg-white w-full max-w-4xl rounded-lg shadow-lg">
+   <div class="bg-red-800 text-white p-4 rounded-t-lg flex items-center">
+    <img alt="Logo of the ATM system, a stylized fingerprint inside a circle" class="mr-2" height="30" src="https://storage.googleapis.com/a1aa/image/fek9wCvbPNkEskBLB9accrvve5jWeKKa5gbeyNoCEbSm0uAfE.jpg" width="30"/>
+    <h1 class="text-xl font-bold">
+     Fingerprint based ATM System
+    </h1>
+   </div>
+   <nav class="bg-red-800 text-white flex justify-center space-x-4 py-2">
+    <a class="hover:bg-red-700 px-3 py-2 rounded" href="home.html">
+     Home
+    </a>
+    <a class="hover:bg-red-700 px-3 py-2 rounded" href="login.html">
+     Login Here
+    </a>
+    <a class="hover:bg-red-700 px-3 py-2 rounded" href="atm.html">
+     Signup Here
+    </a>
+   </nav>
+   <div class="p-8">
+    <h2 class="text-center text-xl font-bold mb-6">
+     User Signup Screen
+    </h2>
+    <form class="space-y-4">
+     <div class="flex items-center">
+      <label class="w-32" for="username">
+       Username
+      </label>
+      <input class="border border-gray-300 rounded px-2 py-1 flex-1" id="username" type="text"/>
+     </div>
+     <div class="flex items-center">
+      <label class="w-32" for="password">
+       Password
+      </label>
+      <input class="border border-gray-300 rounded px-2 py-1 flex-1" id="password" type="password"/>
+     </div>
+     <div class="flex items-center">
+      <label class="w-32" for="phone">
+       Phone No
+      </label>
+      <input class="border border-gray-300 rounded px-2 py-1 flex-1" id="phone" type="text"/>
+     </div>
+     <div class="flex items-center">
+      <label class="w-32" for="email">
+       Email ID
+      </label>
+      <input class="border border-gray-300 rounded px-2 py-1 flex-1" id="email" type="email"/>
+     </div>
+     <div class="flex items-center">
+      <label class="w-32" for="address">
+       Address
+      </label>
+      <input class="border border-gray-300 rounded px-2 py-1 flex-1" id="address" type="text"/>
+     </div>
+     <div class="flex items-center">
+      <label class="w-32" for="gender">
+       Gender
+      </label>
+      <select class="border border-gray-300 rounded px-2 py-1 flex-1" id="gender">
+       <option>
+        Male
+       </option>
+       <option>
+        Female
+       </option>
+       <option>
+        Other
+       </option>
+      </select>
+     </div>
+     <div class="flex items-center">
+      <label class="w-32" for="fingerprint">
+       Upload Fingerprint
+      </label>
+      <input class="border border-gray-300 rounded px-2 py-1 flex-1" id="fingerprint" type="file"/>
+     </div>
+     <div class="flex justify-center">
+      <a href="home.html">
+      <button class="bg-gray-300 border border-gray-400 rounded px-4 py-2" type="submit">
+       Register
+      </a></button>
+     </div>
+    </form>
+   </div>
+  </div>
+ </body>
+</html>
